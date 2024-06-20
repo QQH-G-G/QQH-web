@@ -1,0 +1,95 @@
+.plate {
+    margin: 40px 0px;
+
+    .part {
+        position: relative;
+        display: inline;
+        float: left;
+
+        img {
+            display: inline;
+            float: right;
+        }
+
+        .describe {
+            position: relative;
+            display: inline-block;
+        }
+
+    }
+}
+
+.one {
+    float: left;
+    width: 180px;
+    margin-top: 30px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(top, #FF0000, #1365ff);
+    /*设置线性渐变*/
+    /*为了支持更多的浏览器*/
+    -webkit-background-clip: text;
+    /*背景被裁剪到文字*/
+    -webkit-text-fill-color: transparent;
+    /*设置文字的填充颜色*/
+}
+
+.two {
+
+    font-family: "华文楷体";
+    /*设置字体*/
+    width: 400px;
+    /*设置元素宽度*/
+    float: left;
+    margin: 30px 50px;
+    /*设置外边距*/
+    padding: 30px;
+    /*设置内边距*/
+    background: lightblue;
+    /*设置背景颜色*/
+    font-size: 36px;
+    /*设置文字大小*/
+    color: green;
+    /*设置文字颜色*/
+    text-align: center;
+    /*设置文字居中*/
+    border: 1px solid #CCCCCC;
+    /*设置元素边框*/
+    box-shadow: 3px 3px 6px #999999;
+    /*设置边框阴影*/
+    writing-mode: vertical-rl;
+    /*设置以垂直方式从右向左显示*/
+}
+
+.three {
+    font-size: 18px;
+    margin: 50px auto;
+    /*设置元素外边距*/
+    font-weight: 500;
+    /*设置字体粗细*/
+    text-align: center;
+    /*设置文字居中*/
+    color: #d33100;
+    /*设置文字颜色*/
+    -webkit-animation: bounce 6.6s infinite;
+    /*设置动画*/
+}
+
+@-webkit-keyframes bounce {
+
+    /*创建动画*/
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+    }
+}

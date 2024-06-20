@@ -1,0 +1,36 @@
+.plate {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 2px solid #258eff;
+    box-shadow: 2px 2px 1px #002247,
+        -2px -2px -1px #002247;
+    padding: 10px;
+    overflow: hidden;
+
+    img {
+        width: 260px;
+        height: 260px;
+        margin: 10px;
+    }
+
+}
+
+.hidden:hover {
+    overflow: visible;
+
+    img {
+        width: 160px;
+        height: 160px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+.plate:nth-of-type(6),
+.plate:nth-of-type(4),
+.plate:nth-of-type(5) {
+    margin-bottom: 40px;
+}

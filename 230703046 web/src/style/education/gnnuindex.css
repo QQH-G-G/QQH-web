@@ -1,0 +1,33 @@
+.plate .part {
+    width: 600px;
+    float: left;
+    margin: 50px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #848484,
+        -2px -2px 2px #848484;
+}
+
+.plate .part:nth-child(5) {
+    margin-top: 0;
+    float: right;
+}
+
+.plate>img {
+    width: 350px;
+}
+
+.plate>img:first-of-type {
+    margin: 100px 0 0 10px;
+}
+
+.plate>img:nth-of-type(2) {
+    display: inline-block;
+    /* margin: 0 500px 0 0; */
+}
+
+.blank {
+    content: '';
+    width: 100px;
+    height: 155px;
+    float: left;
+}
