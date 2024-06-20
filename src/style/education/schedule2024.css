@@ -241,6 +241,14 @@ li {
 
 }
 
+.box {
+    margin: 80px auto;
+}
+
+.table {
+    width: 100%;
+}
+
 #sign {
     display: inline;
     float: left;

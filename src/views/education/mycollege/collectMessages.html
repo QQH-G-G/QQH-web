@@ -39,7 +39,7 @@
     <div id="index_main" class="c">
         <!-- 导航 -->
         <div class="nav">
-            <a href=""><img src="assets/main/sign.JPG" alt="" id="sign"></a>
+            <img src="assets/main/sign.JPG" alt="" id="sign">
             <div class="nav_main">
                 <ul>
                     <li><a href="views/education/mycollege/gnnuindex.html">大学主页</a></li>
@@ -54,6 +54,64 @@
             </div>
         </div>
         <div class="content">
+
+            <p style="text-align: center;">学生信息登记表</p>
+            <form action="#" method="post" name="test1" autocomplete="off">
+                <p><label for="zh">账号*：</label><input type="text" id="zh" value="qqh" readonly="true" required /></p>
+                <p><label for="mm">密码*：</label>密码*：<input type="password" id="mm" required /></p>
+            </form>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>基本信息</legend>
+                    <label for="name">姓名:</label>
+                    <input type="text" id="name"><br>
+                    <label for="im">学号:</label>
+                    <input type="text" id="im"><br>
+
+                    <label for="pn">电话:</label>
+                    <input type="text" id="pn"><br>
+                    <label for="jg">籍贯:</label>
+                    <input type="text" id="jg"><br>
+                    <label for="bd">出生日期</label>
+                    <input type="date" id="bd"><br>
+                    <label for="gender">性别：
+                        <label for="man">男</label>
+                        <input id="man" type="radio" name="gender" checked>
+                        <label for="weman">女</label>
+                        <input id="weman" type="radio" name="gender"><br>
+                </fieldset>
+                </p>
+
+                <fieldset>
+                    <legend>其他信息</legend>
+                    <p>
+                        学院：
+                        <select name="xy" title="sel">
+                            <option name="xy">数学与计算机科学学院</option>
+                            <option name="xy">生命科技学院</option>
+                            <option name="xy">地理与环境工程学院</option>
+                            <option name="xy">文学院</option>
+                            <option name="xy">体育学院</option>
+                            <option name="xy">物理与电子信息学院</option>
+                            <option name="xy">化工学院</option>
+                        </select><br>
+                        学历：
+                        <select name="edu" title="sel">
+                            <option value="">本科生</option>
+                            <option value="">研究生</option>
+                            <option value="">博士生</option>
+                        </select><br>
+                    <p>
+                        <label for="gq">个性签名：</label><br />
+                        <textarea id="gq" cols="40" rows="5"></textarea>
+                    </p>
+                </fieldset><br />
+                <input type="submit">
+                <input type="reset">
+                <p>关于食堂环境的建议</p>
+                <textarea cols="35" rows="5" title="tex"></textarea><br>
+            </form>
+
         </div>
     </div>
     <!--  -->

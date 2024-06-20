@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <base href="../../../../src/">
     <link rel="stylesheet" href="style/education/gnnuindex.css">
+    <link rel="stylesheet" href="style/education/freetime.css">
+    <link rel="stylesheet" href="style/education/swiper.css">
     <link rel="stylesheet" href="style/education/common.css">
     <link rel="shortcut icon" href="assets/main/图标.ico" />
     <title>QQHde博客</title>
@@ -39,7 +41,7 @@
     <div id="index_main" class="c">
         <!-- 导航 -->
         <div class="nav">
-            <a href=""><img src="assets/main/sign.JPG" alt="" id="sign"></a>
+            <img src="assets/main/sign.JPG" alt="" id="sign">
             <div class="nav_main">
                 <ul>
                     <li><a href="views/education/mycollege/gnnuindex.html">大学主页</a></li>
@@ -54,6 +56,33 @@
             </div>
         </div>
         <div class="content">
+            <dl>
+                <h4>课外生活</h4>
+                <dd>报个比赛</dd>
+                <dd>出去玩</dd>
+                <dd>积极干饭</dd>
+                <dd>和朋友聚</dd>
+                <dd>打羽毛球</dd>
+                <dd>画个海报</dd>
+            </dl>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass1.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass2.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass3.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass4.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass5.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/education/afterclass6.jpg)">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
     <!--  -->
@@ -79,7 +108,20 @@
         </div>
     </div>
 
-    <script src=""></script>
+    <script src="script/education/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            effect: 'cube',
+            grabCursor: true,
+            cube: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+    </script>
 </body>
 
 </html>

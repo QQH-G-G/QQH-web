@@ -7,7 +7,7 @@
     <title>课程表</title>
     <base href="../../../../src/">
     <link rel="shortcut icon" href="/src/assets/main/图标.ico" />
-    <link rel="stylesheet" href="./schedule2024.css">
+    <link rel="stylesheet" href="style/education/schedule2024.css">
     <link rel="stylesheet" href="style/education/common.css">
 </head>
 
@@ -36,7 +36,7 @@
     <div id="index_main" class="c">
         <!-- 导航 -->
         <div class="nav">
-            <a href=""><img src="assets/main/sign.JPG" alt="" id="sign"></a>
+            <img src="assets/main/sign.JPG" alt="" id="sign">
             <div class="nav_main">
                 <ul>
                     <li><a href="views/education/mycollege/gnnuindex.html">大学主页</a></li>
@@ -50,11 +50,11 @@
                 </ul>
             </div>
         </div>
-        <div id="mainconter">
+        <div id="mainconter" class="box">
 
             <div>
 
-                <table frame="box" rules="all">
+                <table frame="box" rules="all" class="table">
                     <caption>高中课程表</caption>
                     <tr style="background-color: aliceblue;">
                         <th colspan="2">&nbsp;</th>
@@ -144,26 +144,26 @@
                 </table>
             </div>
         </div>
-
-        <!-- 页脚 -->
-        <div class="foot">
-            <div class="foot_ c clear">
-                <dl>
-                    <dt></dt>
-                    <dd>&copy; 2024 Gnnu QQH</dd>
-                    <dd>隐私政策</dd>
-                    <dd>服务条款</dd>
-                    <dd>联系信息：2664856683@qq.com</dd>
-                </dl>
-                <dl>
-                    <dt></dt>
-                    <dd><a href="#">返回顶部</a></dd>
-                    <dd>技术支持</dd>
-                    <dd>帮助</dd>
-                    <dd>反馈与建议</dd>
-                </dl>
-            </div>
+    </div>
+    <!-- 页脚 -->
+    <div class="foot" style="width: 100%;">
+        <div class="foot_ c clear">
+            <dl>
+                <dt></dt>
+                <dd>&copy; 2024 Gnnu QQH</dd>
+                <dd>隐私政策</dd>
+                <dd>服务条款</dd>
+                <dd>联系信息：2664856683@qq.com</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd><a href="#">返回顶部</a></dd>
+                <dd>技术支持</dd>
+                <dd>帮助</dd>
+                <dd>反馈与建议</dd>
+            </dl>
         </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,26 @@
+.content {
+    position: relative;
+    margin-top: 50px;
+    height: 510px;
+
+    dl {
+        margin-top: 150px;
+        margin-left: 50px;
+        float: left;
+    }
+}
+
+.swiper-container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    /* margin-left: -150px;
+    margin-top: -10px; */
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}

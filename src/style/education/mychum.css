@@ -1,0 +1,74 @@
+.mainconter {
+    position: relative;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+
+.jianjie {
+
+    display: block;
+    position: relative;
+    float: left;
+    margin: 20px 60px 0 0;
+    width: 480px;
+    height: 360px;
+    border: 4px solid #610682;
+}
+
+.jianjie img {
+    float: left;
+    width: 77px;
+    border: 2px solid #adf8ff;
+    border-bottom-right-radius: 15px;
+}
+
+.jianjie span {
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px 10px 2px 15px;
+
+}
+
+.zm {
+    background: url(../../assets/education/chumzmbki.JPG) no-repeat;
+    background-size: cover;
+
+}
+
+.jianjie:has(img:hover) {
+    border: 4px solid #ff7243;
+    transform: scale(1.03, 1.03);
+}
+
+.zm:has(img:hover)::before {
+    /* content: 'Zouming';
+    text-align: center;
+    position: absolute;
+    margin: 2px;
+    width: 77px;
+    height: 77px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom-right-radius: 15px; */
+}
+
+.wdd {
+    background: url(../../assets/education/chumwddbki.JPG) no-repeat;
+    background-size: cover;
+}
+
+.lj {
+    background: url(../../assets/education/chumljbki.jpg) no-repeat;
+    background-size: cover;
+}
+
+.xrx {
+    background: url(../../assets/education/chumxrxbki.JPG) no-repeat;
+    background-size: cover;
+}
